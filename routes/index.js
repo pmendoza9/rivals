@@ -9,4 +9,8 @@ router.get('/', function(req, res, next) {
 router.get('/location', function(req, res, next) {
   res.render('location', { title: 'Express' });
 });
+
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: 'Express' });
+});
 module.exports = router;
