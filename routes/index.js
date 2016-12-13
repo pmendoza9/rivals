@@ -13,5 +13,8 @@ router.get('/location', function(req, res, next) {
 
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Express' });
+
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: 'Express' });
 });
 module.exports = router;
